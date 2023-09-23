@@ -22,6 +22,7 @@
         android:allowBackup="true"
         android:supportsRtl="true">
         <activity
+             android:exported="false"
             android:name=".activity.ActivityCrash"
             android:process=":error_activity" />
 
