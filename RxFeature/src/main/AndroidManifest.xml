@@ -3,9 +3,11 @@
     package="com.tamsiree.rxfeature">
 
     <application>
-        <activity android:name="com.tamsiree.rxfeature.activity.ActivityScanerCode" />
+        <activity android:name="com.tamsiree.rxfeature.activity.ActivityScanerCode"
+            android:exported="false"/>
 
-        <activity android:name="com.tamsiree.rxfeature.activity.ActivityCodeTool" />
+        <activity android:name="com.tamsiree.rxfeature.activity.ActivityCodeTool"
+            android:exported="false" />
     </application>
 
 </manifest>
